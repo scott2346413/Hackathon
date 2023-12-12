@@ -7,6 +7,7 @@ TagManager:
   - Anchor
   - Sickle
   - Leaves
+  - Seed
   layers:
   - Default
   - TransparentFX
