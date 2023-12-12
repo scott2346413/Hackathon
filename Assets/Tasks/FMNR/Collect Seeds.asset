@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa5dc0c29ad29224bb9a9bebcb8b7d11, type: 3}
   m_Name: Collect Seeds
   m_EditorClassIdentifier: 
-  type: 1
-  taskName: Collect Seeds
+  type: 0
+  taskName: Plant Seeds
   objectsTag: Seed
