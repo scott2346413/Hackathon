@@ -6,11 +6,11 @@ public class seedHole : MonoBehaviour
 {
     bool isEmpty = true;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.tag.Equals("Seed") && isEmpty)
+        if (collision.gameObject.tag.Equals("Seed") && isEmpty)
         {
-            Destroy(other.gameObject);
+            Destroy(collision.gameObject);
             isEmpty = false;
         }
     }

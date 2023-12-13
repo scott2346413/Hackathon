@@ -9,6 +9,7 @@ TagManager:
   - Leaves
   - Seed
   - Ground
+  - Root
   layers:
   - Default
   - TransparentFX
