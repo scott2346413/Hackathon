@@ -7,6 +7,8 @@ public class seedHole : MonoBehaviour
     bool isEmpty = true;
     MeshRenderer meshRenderer;
 
+    public GameObject cropModel;
+
     private void Start()
     {
         meshRenderer = GetComponent<MeshRenderer>();
@@ -23,6 +25,7 @@ public class seedHole : MonoBehaviour
             meshRenderer.material.color = colour;
             Destroy(collision.gameObject);
             isEmpty = false;
+            cropModel.SetActive(true);
         }
     }
 }

@@ -10,6 +10,7 @@ public class taskManager : MonoBehaviour
     Dictionary<task, GameObject[]> taskObjects = new Dictionary<task, GameObject[]>();
 
     public TextMeshProUGUI tasksText;
+    bool tasksCompleted = false;
 
     private void Start()
     {
@@ -21,6 +22,7 @@ public class taskManager : MonoBehaviour
 
     private void Update()
     {
+        bool allTasksCompleted = true;
         string taskProgressText = "";
 
         foreach (task task in tasks)
@@ -41,10 +43,29 @@ public class taskManager : MonoBehaviour
                 }
             }
 
-            string taskText = task.name + " [" + progress + "/" + objects.Length + "] \n";
+            if(progress != objects.Length)
+            {
+                allTasksCompleted = false;
+            }
+
+            string taskText = task.taskName + " [" + progress + "/" + objects.Length + "] \n";
             taskProgressText += taskText;
         }
 
         tasksText.text = taskProgressText;
+        tasksCompleted = allTasksCompleted;
+    }
+
+    public void Finish()
+    {
+        if (!tasksCompleted)
+        {
+            return;
+        }
+
+        foreach(finishObjectActivator finishObject in FindObjectsOfType<finishObjectActivator>())
+        {
+            finishObject.Activate();
+        }
     }
 }
