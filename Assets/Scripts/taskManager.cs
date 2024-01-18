@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class taskManager : MonoBehaviour
 {
+    public GameObject[] gameobjectsToDeactivate; // gameobjects that should start active to find but then immediately deactivate
+
     public task[] tasks;
     Dictionary<task, GameObject[]> taskObjects = new Dictionary<task, GameObject[]>();
 
@@ -17,6 +19,11 @@ public class taskManager : MonoBehaviour
         foreach (task task in tasks)
         {
             taskObjects[task] = GameObject.FindGameObjectsWithTag(task.objectsTag);
+        }
+
+        foreach(GameObject obj in gameobjectsToDeactivate)
+        {
+            obj.SetActive(false);
         }
     }
 

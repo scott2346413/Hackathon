@@ -10,11 +10,13 @@ TagManager:
   - Seed
   - Ground
   - Root
+  - Gum Arabic
+  - Basket
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Environment
   - Water
   - UI
   - 
