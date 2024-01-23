@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Finish
+  m_text: Complete Process
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab79debceef4c5241b2c55d841c561ee, type: 2}
   m_sharedMaterial: {fileID: -3655763659256986995, guid: ab79debceef4c5241b2c55d841c561ee, type: 2}
@@ -180,6 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22d046e60a34c4149938703eb3ae04b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameobjectsToDeactivate: []
   tasks:
   - {fileID: 11400000, guid: 1643e829262e3eb48a6b59574c19261d, type: 2}
   - {fileID: 11400000, guid: 0155855edb70c0a468912bdbfea26676, type: 2}
@@ -356,7 +357,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 70}
-  m_SizeDelta: {x: -20, y: 30}
+  m_SizeDelta: {x: -20, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5258914956328565975
 CanvasRenderer:

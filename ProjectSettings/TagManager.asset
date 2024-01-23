@@ -12,6 +12,11 @@ TagManager:
   - Root
   - Gum Arabic
   - Basket
+  - A Frame
+  - Pick
+  - Mound
+  - Shovel
+  - Rock
   layers:
   - Default
   - TransparentFX
@@ -19,7 +24,7 @@ TagManager:
   - Environment
   - Water
   - UI
-  - 
+  - Player
   - 
   - 
   - 

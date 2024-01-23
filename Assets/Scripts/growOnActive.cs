@@ -13,6 +13,6 @@ public class growOnActive : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.localScale = Vector3.Lerp(transform.localScale, Vector3.one, Time.deltaTime*0.2f);
+        transform.localScale = Vector3.Lerp(transform.localScale, Vector3.one, Time.deltaTime*0.5f);
     }
 }
