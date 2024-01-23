@@ -15,7 +15,7 @@ public class seedSpawner : MonoBehaviour
     {
         for(int i = 0; i < numberOfSeeds; i++)
         {
-            GameObject seed = seeds[Random.Range(0, seeds.Length-1)];
+            GameObject seed = seeds[Random.Range(0, seeds.Length)];
             Vector3 spawnPosition = Vector3.zero;
             spawnPosition.x = Random.Range(-xBound, xBound);
             spawnPosition.z = Random.Range(-zBound, zBound);

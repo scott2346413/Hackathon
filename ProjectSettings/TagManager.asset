@@ -9,14 +9,22 @@ TagManager:
   - Leaves
   - Seed
   - Ground
+  - Root
+  - Gum Arabic
+  - Basket
+  - A Frame
+  - Pick
+  - Mound
+  - Shovel
+  - Rock
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Environment
   - Water
   - UI
-  - 
+  - Player
   - 
   - 
   - 
