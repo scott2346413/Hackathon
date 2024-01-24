@@ -1,0 +1,98 @@
+﻿title: Awake
+tags:
+---
+<<declare $spokenToEdem = false>>
+<<declare $spokenToOumar = false>>
+===
+
+title: FMNR
+tags:
+---
+<<if $spokenToEdem is false>>
+<<jump FMNRFirstTime>>
+<<else>>
+<<jump FMNRRevisit>>
+<<endif>>>>
+===
+
+title: FMNRFirstTime
+tags:
+---
+<<set $spokenToEdem to true>>
+Welcome to Niger, an arid country north of Nigeria. My name is Edem #line:05f113f 
+The dry climate makes it difficult for trees and plants to grow #line:0ad03f1 
+One method of solving this is Farmer-Managed Natural Regeneration - FMNR #line:00951cd
+Would you like to know more?
+-> Tell me more about FMNR
+    By removing stumps, digging up roots and collecting seeds, we can increase grain yield by 30% #line:018a985 
+    This also includes agroforestry, where we grow crops and trees together #line:0898bad
+    FMNR benefits famers, crops, forests and even the animals
+    Its low-cost, low-tech approach is a big advantage
+    About 5 million hectares of agriculture that were treeless are now green in Niger where its operated
+-> No Thank you
+    No worries, come back if you want to know more
+
+Go help the workers by completing some basic FMNR tasks
+===
+
+title: FMNRRevisit
+tags:
+---
+Hello again. Would you like to know more about FMNR?
+-> Tell me more about FMNR
+    By removing stumps, digging up roots and collecting seeds, we can increase grain yield by 30%
+    This also includes agroforestry, where we grow crops and trees together
+    FMNR benefits famers, crops, forests and even the animals
+    Its low-cost, low-tech approach is a great stength and is operated in Niger
+    In Niger, about 5 million hectares of agriculture that were treeless are now green
+-> No Thank you
+    No problem, come back when you have any questions
+===
+
+title: AcaciaSenegal
+tags:
+---
+<<if $spokenToOumar is false>>
+<<jump AcaciaSenegalFirstTime>>
+<<else>>
+<<jump AcaciaSenegalRevisit>>
+<<endif>>>>
+===
+
+title: AcaciaSenegalFirstTime
+tags:
+---
+<<set $spokenToOumar to true>>
+Welcome to Senegal, a coastal country in West Africa. My name is Oumar
+Acacia Senegal, a tree native to sub saharan Africa, grows well here
+The tree produces Gum Arabic, a natural gum with many uses
+Would you like to know more?
+-> Tell me more about Acacia Senegal
+    Acacia Senegal grows in many parts of Africa, and can endure 11 month droughts
+    Its large roots to stop desertification and erosion
+    Gum Arabic, also called E414 is a food additive with countless uses
+    It is used in fizzy drinks, candies, inks, medicines and beer
+    Egyptian Pharos used to trade its sap for money
+    Present day farmers also sell it to large companies, finding much economic value
+    Acacia Senegal and Gum Arabic benefit the economy, environment and society in countries where it is grown
+-> No Thank you
+    No worries, come back if you want to know more
+
+Plant the saplings to harvest Gum Arabic yourself
+===
+
+title: AcaciaSenegalRevisit
+tags:
+---
+Hello again. Would you like to know more about FMNR?
+-> Tell me more about FMNR
+    Acacia Senegal grows in many parts of Africa, and can endure 11 month droughts
+    Its large roots to stop desertification and erosion
+    Gum Arabic, also called E414 is a food additive with countless uses
+    It is used in fizzy drinks, candies, inks, medicines and beer
+    Egyptian Pharos used to trade its sap for money
+    Present day farmers also sell it to large companies, finding much economic value
+    Acacia Senegal and Gum Arabic benefit the economy, environment and society in countries where it is grown
+-> No Thank you
+    No problem, come back when you have any questions
+===
