@@ -12,7 +12,7 @@ public class moundSpawner : MonoBehaviour
         if (other.tag.Equals("Ground"))
         {
             Vector3 spawnPosition = transform.position;
-            spawnPosition.y = 0f;
+            spawnPosition.y = -8.7f;
             Instantiate(mound, spawnPosition, Quaternion.identity);
             audioSource.Play();
         }
