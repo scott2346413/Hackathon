@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 100000}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: -0.21334793, z: -0.000000009325734}
+  m_LocalPosition: {x: 0, y: -52.129517, z: -0.000000009325734}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -108,7 +108,7 @@ Transform:
   m_GameObject: {fileID: 100002}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -51.91617, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -141,7 +141,7 @@ Transform:
   m_GameObject: {fileID: 100004}
   serializedVersion: 2
   m_LocalRotation: {x: -0.050553787, y: 0.92937094, z: -0.13889539, w: -0.3382634}
-  m_LocalPosition: {x: -12.540055, y: 95.01615, z: -4.4817767}
+  m_LocalPosition: {x: 0, y: 43.1, z: -4.4817767}
   m_LocalScale: {x: 0.36357623, y: 0.7567886, z: 0.7567885}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -207,6 +207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400006}
   - component: {fileID: 9500000}
+  - component: {fileID: 8200816983041124381}
   m_Layer: 0
   m_Name: Flying_Tree
   m_TagString: Untagged
@@ -253,3 +254,24 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &8200816983041124381
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 38.264942, y: 116.89694, z: 39.136124}
+  m_Center: {x: -4.7576427, y: 0, z: 3.0426025}

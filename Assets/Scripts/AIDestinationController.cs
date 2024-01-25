@@ -20,6 +20,7 @@ public class AIDestinationController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        animator.SetBool("waiting", false);
         destinations = destinationsParent.GetComponentsInChildren<Transform>();
         agent = GetComponent<NavMeshAgent>();
         agent.SetDestination(destinations[Random.Range(0, destinations.Length - 1)].position);
@@ -29,7 +30,7 @@ public class AIDestinationController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (agent.velocity.magnitude == 0f && !isWaiting && Time.time > 0.5f)
+        if (agent.velocity.magnitude == 0f && !isWaiting && Time.timeSinceLevelLoad > 1f)
         {
             StartCoroutine(Wait());
             isWaiting = true;
