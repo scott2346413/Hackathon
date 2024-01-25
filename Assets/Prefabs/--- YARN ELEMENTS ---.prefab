@@ -561,7 +561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 097b95c9f69f04f2d8c08a817e7786af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueView: {fileID: 0}
+  dialogueView: {fileID: 4550968040176095942}
   continueActionType: 1
   continueActionKeyCode: 32
   continueActionButtonName: Jump
@@ -632,7 +632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bec29c0a230741bdac901dba8da47ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yarnProject: {fileID: 7545569452688597077, guid: 6169c57d59a0dc1448af9e205167cae6, type: 3}
+  yarnProject: {fileID: 7545569452688597077, guid: a46f2202f1486384e9e0a5b18a9fb4bb, type: 3}
   _variableStorage: {fileID: 7650366194977190977}
   dialogueViews:
   - {fileID: 4550968040176095942}

@@ -2278,10 +2278,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3422881318780370560, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
-      propertyPath: yarnProject
+    - target: {fileID: 4550968040176095942, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
+      propertyPath: audioSource
       value: 
-      objectReference: {fileID: 7545569452688597077, guid: a46f2202f1486384e9e0a5b18a9fb4bb, type: 3}
+      objectReference: {fileID: 769942029}
     - target: {fileID: 5146090063205485503, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -2320,7 +2320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8785839307584520085, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -9.31
       objectReference: {fileID: 0}
     - target: {fileID: 8785839307584520085, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2328,7 +2328,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8785839307584520085, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -5.44
       objectReference: {fileID: 0}
     - target: {fileID: 8785839307584520085, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8670,6 +8670,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7066738055900061832, guid: caffda144e3c7d34d94adc25d7428e3f, type: 3}
   m_PrefabInstance: {fileID: 759749841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &769942029 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3566710098946280543, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
+  m_PrefabInstance: {fileID: 7746612945161245431}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &772849237
 PrefabInstance:

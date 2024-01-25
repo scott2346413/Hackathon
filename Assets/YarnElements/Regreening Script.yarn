@@ -13,41 +13,41 @@ tags:
 <<jump FMNRFirstTime>>
 <<else>>
 <<jump FMNRRevisit>>
-<<endif>>>>
+<<endif>>>> #line:087f9f2 
 ===
 
 title: FMNRFirstTime
 tags:
 ---
 <<set $spokenToEdem to true>>
-Welcome to Niger, an arid country north of Nigeria. My name is Edem #line:05f113f 
-The dry climate makes it difficult for trees and plants to grow #line:0ad03f1 
-One method of solving this is Farmer-Managed Natural Regeneration - FMNR #line:00951cd
-Would you like to know more?
--> Tell me more about FMNR
-    By removing stumps, digging up roots and collecting seeds, we can increase grain yield by 30% #line:018a985 
-    This also includes agroforestry, where we grow crops and trees together #line:0898bad
-    FMNR benefits famers, crops, forests and even the animals
-    Its low-cost, low-tech approach is a big advantage
-    About 5 million hectares of agriculture that were treeless are now green in Niger where its operated
--> No Thank you
-    No worries, come back if you want to know more
+Welcome to Niger - an arid, landlocked country. My name is Edem #line:FMNR1 
+The dry climate makes it difficult for trees and plants to grow #line:FMNR2
+We can combat this using Farmer-Managed Natural Regeneration - FMNR #line:FMNR3
+Would you like to know more? #line:FMNR4
+-> Tell me more about FMNR #line:08ce49c 
+    By removing stumps, digging up roots and collecting seeds, we can increase grain yield by 30% #line:FMNR5
+    This also includes agroforestry, where we grow crops and trees together #line:FMNR6
+    FMNR benefits farmers, crops, forests and even the animals #line:FMNR7
+    Its low-cost, low-tech approach is a big advantage #line:FMNR8
+    About 5 million hectares of agriculture that were treeless are now green in Niger where its operated #line:FMNR9
+-> No Thank you #line:05265b7 
+    No worries, come back if you would like to know more #line:FMNR10
 
-Go help the workers by completing some basic FMNR tasks
+Go help the workers by completing some basic FMNR tasks #line:FMNR11
 ===
 
 title: FMNRRevisit
 tags:
 ---
-Hello again. Would you like to know more about FMNR?
--> Tell me more about FMNR
-    By removing stumps, digging up roots and collecting seeds, we can increase grain yield by 30%
-    This also includes agroforestry, where we grow crops and trees together
-    FMNR benefits famers, crops, forests and even the animals
-    Its low-cost, low-tech approach is a great stength and is operated in Niger
-    In Niger, about 5 million hectares of agriculture that were treeless are now green
--> No Thank you
-    No problem, come back when you have any questions
+Hello again. Would you like to know more about FMNR? #line:0dd3391 
+-> Tell me more about FMNR #line:00bf6e0 
+    By removing stumps, digging up roots and collecting seeds, we can increase grain yield by 30% #line:0c9a1d3 
+    This also includes agroforestry, where we grow crops and trees together #line:0943e36 
+    FMNR benefits famers, crops, forests and even the animals #line:0b30e80 
+    Its low-cost, low-tech approach is a great stength and is operated in Niger #line:01884eb 
+    In Niger, about 5 million hectares of agriculture that were treeless are now green #line:01df766 
+-> No Thank you #line:0bb04dd 
+    No problem, come back when you have any questions #line:060f24f 
 ===
 
 title: AcaciaSenegal
@@ -57,45 +57,45 @@ tags:
 <<jump AcaciaSenegalFirstTime>>
 <<else>>
 <<jump AcaciaSenegalRevisit>>
-<<endif>>>>
+<<endif>>>> #line:0193887 
 ===
 
 title: AcaciaSenegalFirstTime
 tags:
 ---
 <<set $spokenToOumar to true>>
-Welcome to Senegal, a coastal country in West Africa. My name is Oumar
-Acacia Senegal, a tree native to sub saharan Africa, grows well here
-The tree produces Gum Arabic, a natural gum with many uses
-Would you like to know more?
--> Tell me more about Acacia Senegal
-    Acacia Senegal grows in many parts of Africa, and can endure 11 month droughts
-    Its large roots to stop desertification and erosion
-    Gum Arabic, also called E414 is a food additive with countless uses
-    It is used in fizzy drinks, candies, inks, medicines and beer
-    Egyptian Pharos used to trade its sap for money
-    Present day farmers also sell it to large companies, finding much economic value
-    Acacia Senegal and Gum Arabic benefit the economy, environment and society in countries where it is grown
--> No Thank you
-    No worries, come back if you want to know more
+Welcome to Senegal, a coastal country in West Africa. My name is Oumar #line:Senegal1 
+Acacia Senegal, a tree native to sub saharan Africa, grows well here #line:09e865f 
+The tree produces Gum Arabic, a natural gum with many uses #line:0485129 
+Would you like to know more? #line:0d338ec 
+-> Tell me more about Acacia Senegal #line:0726c6f 
+    Acacia Senegal grows in many parts of Africa, and can endure 11 month droughts #line:07f5439 
+    Its large roots to stop desertification and erosion #line:01de35c 
+    Gum Arabic, also called E414 is a food additive with countless uses #line:0e6ed08 
+    It is used in fizzy drinks, candies, inks, medicines and beer #line:03233a9 
+    Egyptian Pharos used to trade its sap for money #line:06d4320 
+    Present day farmers also sell it to large companies, finding much economic value #line:08c5621 
+    Acacia Senegal and Gum Arabic benefit the economy, environment and society in countries where it is grown #line:065c510 
+-> No Thank you #line:0f5c4b1 
+    No worries, come back if you want to know more #line:0d9d0c1 
 
-Plant the saplings to harvest Gum Arabic yourself
+Plant the saplings to harvest Gum Arabic yourself #line:0075999 
 ===
 
 title: AcaciaSenegalRevisit
 tags:
 ---
-Hello again. Would you like to know more about FMNR?
--> Tell me more about FMNR
-    Acacia Senegal grows in many parts of Africa, and can endure 11 month droughts
-    Its large roots to stop desertification and erosion
-    Gum Arabic, also called E414 is a food additive with countless uses
-    It is used in fizzy drinks, candies, inks, medicines and beer
-    Egyptian Pharos used to trade its sap for money
-    Present day farmers also sell it to large companies, finding much economic value
-    Acacia Senegal and Gum Arabic benefit the economy, environment and society in countries where it is grown
--> No Thank you
-    No problem, come back when you have any questions
+Hello again. Would you like to know more about FMNR? #line:0c8bc50 
+-> Tell me more about FMNR #line:0250b7e 
+    Acacia Senegal grows in many parts of Africa, and can endure 11 month droughts #line:04723d4 
+    Its large roots to stop desertification and erosion #line:0cbfb7e 
+    Gum Arabic, also called E414 is a food additive with countless uses #line:05a0864 
+    It is used in fizzy drinks, candies, inks, medicines and beer #line:059624e 
+    Egyptian Pharos used to trade its sap for money #line:0a06a77 
+    Present day farmers also sell it to large companies, finding much economic value #line:09c688a 
+    Acacia Senegal and Gum Arabic benefit the economy, environment and society in countries where it is grown #line:08df0db 
+-> No Thank you #line:0e2584c 
+    No problem, come back when you have any questions #line:0145922 
 ===
 
 title: Demilunes
@@ -105,38 +105,38 @@ tags:
 <<jump AcaciaSenegalFirstTime>>
 <<else>>
 <<jump AcaciaSenegalRevisit>>
-<<endif>>>>
+<<endif>>>> #line:0c142a6 
 ===
 
 title: DemilunesFirstTime
 tags:
 ---
 <<set $spokenToDola to true>>
-Welcome to the sub saharan deserts of Nigeria. My name is Dola
-In the south, Nigeria has 500 millimetres of rain every year
-The problem is trying to catch the rainfall to help crops grow
-That's what Demilunes are for 
-Would you like to know more?
--> Tell me more about Demilunes
-    Demilunes are embankments built by hand to catch water so its easier for plants to used
-    The process involves using A-Frames, pickaxes and shovels
-    We also cover them in manure and compost
-    Demilunes work best on slopes with less than 2% gradient
--> No Thank you
-    No worries, come back if you want to know more
+Welcome to the sub saharan deserts of Nigeria. My name is Dola #line:Demilunes1
+In the south, Nigeria has 500 millimetres of rain every year #line:0b5ea2b 
+The problem is trying to catch the rainfall to help crops grow #line:0d9ef54 
+That's what Demilunes are for  #line:05d20be 
+Would you like to know more? #line:0a6218c 
+-> Tell me more about Demilunes #line:09496db 
+    Demilunes are embankments built by hand to catch water so its easier for plants to used #line:0a0d5d7 
+    The process involves using A-Frames, pickaxes and shovels #line:09185f5 
+    We also cover them in manure and compost #line:0559401 
+    Demilunes work best on slopes with less than 2% gradient #line:03fa8c8 
+-> No Thank you #line:0ad87a1 
+    No worries, come back if you want to know more #line:03a2134 
 
-Try building a few demilunes yourself. The equipment is already set up
+Try building a few demilunes yourself. The equipment is already set up #line:09de010 
 ===
 
 title: DemilunesRevisit
 tags:
 ---
-Hello again. Would you like to know more about Demilunes?
--> Tell me more about Demilunes
-    Demilunes are embankments built by hand to catch water so its easier for plants to used
-    The process involves using A-Frames, pickaxes and shovels
-    We also cover them in manure and compost
-    Demilunes work best on slopes with less than 2% gradient
--> No Thank you
-    No problem, come back when you have any questions
+Hello again. Would you like to know more about Demilunes? #line:069e052 
+-> Tell me more about Demilunes #line:0f094ac 
+    Demilunes are embankments built by hand to catch water so its easier for plants to used #line:020320d 
+    The process involves using A-Frames, pickaxes and shovels #line:0881c55 
+    We also cover them in manure and compost #line:01d8c52 
+    Demilunes work best on slopes with less than 2% gradient #line:0776e81 
+-> No Thank you #line:016322f 
+    No problem, come back when you have any questions #line:0efd111 
 ===
