@@ -5,12 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class SenScene : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //
     private void OnTriggerEnter(Collider other)
-    {
+    {   // If the player enters the trigger area, load the Sen scene
         if (other.gameObject.CompareTag("Tree"))
-        {
+        {   // Log the event
             Debug.Log("Player entered Sen scene");
+            // Load the scene
             AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("senigal");
         }
     }
