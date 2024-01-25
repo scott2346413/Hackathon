@@ -8,21 +8,33 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Scenes/Lobby programming.unity
     guid: 8f3096f7ba678654d96d9179429d97bf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Scenes/FMNR programming.unity
     guid: 347416bbb12468b41ad8ce4944724951
   - enabled: 0
     path: Assets/Scenes/Game Scenes/Demilunes shapesxr.unity
     guid: 94e13fe731919a94da94d008e1dd3527
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Scenes/Acacia Senegal programming.unity
     guid: 01d203dab0b80de4fb55044776b01300
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Scenes/Demilunes programming.unity
     guid: 915ae5c52e15dea40aac532c2bf83ad6
+  - enabled: 1
+    path: Assets/1.unity
+    guid: b539cec09b1e16f4095b28d5be11fa92
+  - enabled: 1
+    path: Assets/demi.unity
+    guid: 1e337cd163905834b9b556e8eeb2dc0e
+  - enabled: 1
+    path: Assets/FMNR.unity
+    guid: 74a5a95f1babae748a7baa515d42355e
+  - enabled: 1
+    path: Assets/senigal.unity
+    guid: a53a9f51b2497504bb9ec6d566f9522e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
