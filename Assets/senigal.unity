@@ -5988,14 +5988,6 @@ PrefabInstance:
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1424682639}
-    - target: {fileID: 2109232811913555701, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
-      propertyPath: PostionSpeachBubble.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2109232811913555701, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
-      propertyPath: PostionSpeachBubble.z
-      value: -0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 3345408089397233360, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
       propertyPath: dialogueRunner
       value: 

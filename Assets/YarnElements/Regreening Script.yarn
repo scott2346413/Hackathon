@@ -3,6 +3,7 @@ tags:
 ---
 <<declare $spokenToEdem = false>>
 <<declare $spokenToOumar = false>>
+<<declare $spokenToDola = false>>
 ===
 
 title: FMNR
@@ -93,6 +94,49 @@ Hello again. Would you like to know more about FMNR?
     Egyptian Pharos used to trade its sap for money
     Present day farmers also sell it to large companies, finding much economic value
     Acacia Senegal and Gum Arabic benefit the economy, environment and society in countries where it is grown
+-> No Thank you
+    No problem, come back when you have any questions
+===
+
+title: Demilunes
+tags:
+---
+<<if $spokenToDola is false>>
+<<jump AcaciaSenegalFirstTime>>
+<<else>>
+<<jump AcaciaSenegalRevisit>>
+<<endif>>>>
+===
+
+title: DemilunesFirstTime
+tags:
+---
+<<set $spokenToDola to true>>
+Welcome to the sub saharan deserts of Nigeria. My name is Dola
+In the south, Nigeria has 500 millimetres of rain every year
+The problem is trying to catch the rainfall to help crops grow
+That's what Demilunes are for 
+Would you like to know more?
+-> Tell me more about Demilunes
+    Demilunes are embankments built by hand to catch water so its easier for plants to used
+    The process involves using A-Frames, pickaxes and shovels
+    We also cover them in manure and compost
+    Demilunes work best on slopes with less than 2% gradient
+-> No Thank you
+    No worries, come back if you want to know more
+
+Try building a few demilunes yourself. The equipment is already set up
+===
+
+title: DemilunesRevisit
+tags:
+---
+Hello again. Would you like to know more about Demilunes?
+-> Tell me more about Demilunes
+    Demilunes are embankments built by hand to catch water so its easier for plants to used
+    The process involves using A-Frames, pickaxes and shovels
+    We also cover them in manure and compost
+    Demilunes work best on slopes with less than 2% gradient
 -> No Thank you
     No problem, come back when you have any questions
 ===

@@ -1941,7 +1941,7 @@ MonoBehaviour:
   scriptToLoad: {fileID: 7545569452688597077, guid: a46f2202f1486384e9e0a5b18a9fb4bb, type: 3}
   dialogueRunner: {fileID: 0}
   dialogueCanvas: {fileID: 0}
-  PostionSpeachBubble: {x: 0, y: 0.6, z: -1}
+  PostionSpeachBubble: {x: 0, y: 2, z: 0}
 --- !u!135 &2475757473652869140
 SphereCollider:
   m_ObjectHideFlags: 0
