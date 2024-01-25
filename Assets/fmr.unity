@@ -5603,7 +5603,8 @@ Transform:
   m_LocalPosition: {x: -3.5152206, y: -10.388821, z: 24.810522}
   m_LocalScale: {x: 1, y: 1, z: 3}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1584734494}
   m_Father: {fileID: 632032351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &516718954
@@ -16401,6 +16402,96 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5891280182767767083, guid: e4aa071478ef72949aeab14643843760, type: 3}
   m_PrefabInstance: {fileID: 1578047882}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1584734493
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 515785008}
+    m_Modifications:
+    - target: {fileID: 3134916544844366938, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_text
+      value: Dig holes with the shovel and plant loose seeds you find here
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954913083227496021, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954913083227496021, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954913083227496021, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5721188408941010465, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_text
+      value: Farming Plot
+      objectReference: {fileID: 0}
+    - target: {fileID: 6193575420902787446, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_Name
+      value: Tooltip
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169085871449123201, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_Radius
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+--- !u!4 &1584734494 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+  m_PrefabInstance: {fileID: 1584734493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1586688058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20993,10 +21084,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 222152625558568231, guid: c52ec914a9a221b41a37d4eaf02c96f7, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 2528157814091661277, guid: c52ec914a9a221b41a37d4eaf02c96f7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.10916519
@@ -21036,10 +21123,6 @@ PrefabInstance:
     - target: {fileID: 2528157814091661277, guid: c52ec914a9a221b41a37d4eaf02c96f7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5097986182698624190, guid: c52ec914a9a221b41a37d4eaf02c96f7, type: 3}
-      propertyPath: m_TagString
-      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21776,6 +21859,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1194997691468076170}
     m_Modifications:
+    - target: {fileID: 3027166803529735418, guid: d16e001f37a1d7e46a2edc876d161eaf, type: 3}
+      propertyPath: m_text
+      value: Use the shovel to dig holes in the empty farming plot
+      objectReference: {fileID: 0}
     - target: {fileID: 5074110421041544792, guid: d16e001f37a1d7e46a2edc876d161eaf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -21815,6 +21902,10 @@ PrefabInstance:
     - target: {fileID: 5074110421041544792, guid: d16e001f37a1d7e46a2edc876d161eaf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5685340826520897153, guid: d16e001f37a1d7e46a2edc876d161eaf, type: 3}
+      propertyPath: m_text
+      value: Shovel
       objectReference: {fileID: 0}
     - target: {fileID: 8229183033837787960, guid: d16e001f37a1d7e46a2edc876d161eaf, type: 3}
       propertyPath: m_Name
@@ -22031,6 +22122,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1194997691468076170}
     m_Modifications:
+    - target: {fileID: 5142029781759552042, guid: 15c1d27db3b3ee143becaf382433aa27, type: 3}
+      propertyPath: m_text
+      value: Use the sickle to prune excess leaves on the trees
+      objectReference: {fileID: 0}
     - target: {fileID: 6185336947612908565, guid: 15c1d27db3b3ee143becaf382433aa27, type: 3}
       propertyPath: m_Name
       value: Sickle
@@ -22564,6 +22659,18 @@ PrefabInstance:
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 814512686}
+    - target: {fileID: 2109232811913555701, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
+      propertyPath: PostionSpeachBubble.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109232811913555701, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
+      propertyPath: PostionSpeachBubble.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109232811913555701, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
+      propertyPath: PostionSpeachBubble.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3345408089397233360, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
       propertyPath: dialogueRunner
       value: 

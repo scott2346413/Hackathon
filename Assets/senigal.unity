@@ -4983,6 +4983,82 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7801639660568494508, guid: 89534441a76efee4a958df969b783f9a, type: 3}
   m_PrefabInstance: {fileID: 1071733676}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1099233459
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 422619586643959749}
+    m_Modifications:
+    - target: {fileID: 3134916544844366938, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_text
+      value: The Gum Arabic will be sold to large companies and used in many different
+        products. The money will benefits the economy and can go towards other regreening
+        projects
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.293
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.284
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5721188408941010465, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_text
+      value: Gum Arabic
+      objectReference: {fileID: 0}
+    - target: {fileID: 6193575420902787446, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_Name
+      value: Tooltip
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169085871449123201, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_Radius
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+--- !u!4 &1099233460 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+  m_PrefabInstance: {fileID: 1099233459}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1115681455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5858,7 +5934,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 64622396076142523, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.331537
+      value: -30.06
       objectReference: {fileID: 0}
     - target: {fileID: 64622396076142523, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5870,19 +5946,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 64622396076142523, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.3877433
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 64622396076142523, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 64622396076142523, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.9217674
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 64622396076142523, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 64622396076142523, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5890,7 +5966,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 64622396076142523, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -225.628
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 64622396076142523, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -5898,7 +5974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2109232811913555701, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
       propertyPath: talkToNode
-      value: Acacia Senegal
+      value: AcaciaSenegal
       objectReference: {fileID: 0}
     - target: {fileID: 2109232811913555701, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
       propertyPath: characterName
@@ -5909,6 +5985,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1424682638}
     - target: {fileID: 2109232811913555701, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
+      propertyPath: dialogueRunner
+      value: 
+      objectReference: {fileID: 1424682639}
+    - target: {fileID: 2109232811913555701, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
+      propertyPath: PostionSpeachBubble.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109232811913555701, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
+      propertyPath: PostionSpeachBubble.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345408089397233360, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 1424682639}
@@ -6372,6 +6460,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3422881318780370560, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
+      propertyPath: yarnProject
+      value: 
+      objectReference: {fileID: 7545569452688597077, guid: a46f2202f1486384e9e0a5b18a9fb4bb, type: 3}
     - target: {fileID: 5146090063205485503, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -7714,6 +7806,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d67e695e7ab7e25468931309316c54f8, type: 3}
   m_PrefabInstance: {fileID: 1819445407}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1826327774
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3134916544844366938, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_text
+      value: Plant saplings in the empty spots to grow Acacia Senegal trees
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -50.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5721188408941010465, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_text
+      value: Acacia Saplings
+      objectReference: {fileID: 0}
+    - target: {fileID: 6193575420902787446, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_Name
+      value: Tooltip
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
 --- !u!1001 &1840302894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9637,12 +9794,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3351030586371217581, guid: 362b1f86e6ef40948b5e6b041cb27a53, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1099233460}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 362b1f86e6ef40948b5e6b041cb27a53, type: 3}
 --- !u!4 &422619586643959748 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4815310564968947307, guid: 362b1f86e6ef40948b5e6b041cb27a53, type: 3}
+  m_PrefabInstance: {fileID: 422619586643959747}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &422619586643959749 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3351030586371217581, guid: 362b1f86e6ef40948b5e6b041cb27a53, type: 3}
   m_PrefabInstance: {fileID: 422619586643959747}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &883078176302622957
@@ -11323,3 +11488,4 @@ SceneRoots:
   - {fileID: 536932263}
   - {fileID: 1239470802}
   - {fileID: 1424682637}
+  - {fileID: 1826327774}
