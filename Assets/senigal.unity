@@ -6001,6 +6001,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
+--- !u!82 &1239470803 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3566710098946280543, guid: e1f4e5be12ff862459a95744ac0c6ed8, type: 3}
+  m_PrefabInstance: {fileID: 1239470802}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1267251105 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 1fcfd74f04bdf464aa90886ce55bbba3, type: 3}
@@ -6456,6 +6461,10 @@ PrefabInstance:
       propertyPath: yarnProject
       value: 
       objectReference: {fileID: 7545569452688597077, guid: a46f2202f1486384e9e0a5b18a9fb4bb, type: 3}
+    - target: {fileID: 4550968040176095942, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1239470803}
     - target: {fileID: 5146090063205485503, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
