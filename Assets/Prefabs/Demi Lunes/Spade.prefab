@@ -452,6 +452,7 @@ Transform:
   - {fileID: 6924313600870012879}
   - {fileID: 1077690606249721538}
   - {fileID: 966718884986681977}
+  - {fileID: 4046800877081849167}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -180, y: 0, z: 0}
 --- !u!65 &8934826386085936534
@@ -654,3 +655,73 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!1001 &9052145318980780344
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 515497607226099649}
+    m_Modifications:
+    - target: {fileID: 3134916544844366938, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_text
+      value: Use the shovel to remove dirt mounds
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5721188408941010465, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_text
+      value: Shovel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6193575420902787446, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_Name
+      value: Tooltip
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+--- !u!4 &4046800877081849167 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+  m_PrefabInstance: {fileID: 9052145318980780344}
+  m_PrefabAsset: {fileID: 0}

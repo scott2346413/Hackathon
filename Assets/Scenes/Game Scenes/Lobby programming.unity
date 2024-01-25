@@ -355,9 +355,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4368818632087866220, guid: 151e28ae57c833e42b9871a70d097b91, type: 3}
+      propertyPath: m_text
+      value: demi
+      objectReference: {fileID: 0}
     - target: {fileID: 5955712849942160224, guid: 151e28ae57c833e42b9871a70d097b91, type: 3}
       propertyPath: m_Name
       value: Globe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6184305499329533530, guid: 151e28ae57c833e42b9871a70d097b91, type: 3}
+      propertyPath: m_text
+      value: fmr
       objectReference: {fileID: 0}
     - target: {fileID: 6479872705745680858, guid: 151e28ae57c833e42b9871a70d097b91, type: 3}
       propertyPath: m_LocalScale.x
@@ -410,6 +418,10 @@ PrefabInstance:
     - target: {fileID: 6479872705745680858, guid: 151e28ae57c833e42b9871a70d097b91, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7410699384125571178, guid: 151e28ae57c833e42b9871a70d097b91, type: 3}
+      propertyPath: m_text
+      value: senigal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

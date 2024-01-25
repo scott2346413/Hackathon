@@ -87,6 +87,7 @@ Transform:
   m_Children:
   - {fileID: 8387300034005179158}
   - {fileID: 1856022355552977192}
+  - {fileID: 6571569416146017009}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &6296684528365585707
@@ -372,3 +373,73 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &2198977424360158854
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7953384729879617548}
+    m_Modifications:
+    - target: {fileID: 3134916544844366938, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_text
+      value: Use the pickaxe to remove stone and rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5721188408941010465, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_text
+      value: Pickaxe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6193575420902787446, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_Name
+      value: Tooltip
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+--- !u!4 &6571569416146017009 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+  m_PrefabInstance: {fileID: 2198977424360158854}
+  m_PrefabAsset: {fileID: 0}
