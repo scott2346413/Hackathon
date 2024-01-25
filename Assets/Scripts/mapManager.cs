@@ -7,6 +7,6 @@ public class mapManager : MonoBehaviour
 {
     public void GoToScene(string scene)
     {
-        SceneManager.LoadScene(scene);
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(scene);
     }
 }
