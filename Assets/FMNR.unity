@@ -5272,7 +5272,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.1
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 0d710c371e8cb7a4e8fe047d7ffdbc46, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: ff69898067cd1fe4d8527e83513e8a90, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1001 &434751724
 PrefabInstance:
@@ -22195,6 +22195,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Use this to prune excess leaves on the trees
       objectReference: {fileID: 0}
+    - target: {fileID: 3134916544844366938, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5023397880659143799, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.7000004
@@ -22238,6 +22242,10 @@ PrefabInstance:
     - target: {fileID: 5721188408941010465, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
       propertyPath: m_text
       value: Sickle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5721188408941010465, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6193575420902787446, guid: 0af46f5e98eb4554c8c14d3bb5b008ba, type: 3}
       propertyPath: m_Name
