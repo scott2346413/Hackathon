@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0
+  m_AmbientIntensity: 0.8
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 170f2a047c448444ca1b8e2d20f504f1, type: 2}
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6353611, g: 0.2373634, b: 0.124569364, a: 1}
+  m_IndirectSpecularColor: {r: 0.63306046, g: 0.23789527, b: 0.12651238, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: d7bfeea01ff8c41418889fd681f57c9e, type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: b0740fcdab674b7469198a442144b904, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 20b21765297e4474b9ac6c520c555982, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2628,7 +2628,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1.44
+  m_Intensity: 2.2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -17849,6 +17849,56 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488791744}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1510583796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1510583798}
+  - component: {fileID: 1510583797}
+  m_Layer: 0
+  m_Name: Light Probe Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!220 &1510583797
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510583796}
+  m_Enabled: 1
+  m_SourcePositions:
+  - {x: 108.408615, y: 43.156498, z: 38.61128}
+  - {x: 108.408615, y: 43.156498, z: -68.01471}
+  - {x: 108.408615, y: -1, z: 38.61128}
+  - {x: 108.408615, y: -1, z: -68.01471}
+  - {x: -59.092594, y: 43.156498, z: 38.61128}
+  - {x: -59.092594, y: 43.156498, z: -68.01471}
+  - {x: -59.092594, y: -1, z: 38.61128}
+  - {x: -59.092594, y: -1, z: -68.01471}
+  m_Dering: 1
+--- !u!4 &1510583798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510583796}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1517189939 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4807715384181946, guid: 27cdd53497484d344a43dc40c43e2dbc, type: 3}
@@ -26263,3 +26313,4 @@ SceneRoots:
   - {fileID: 1558487081}
   - {fileID: 1771665213}
   - {fileID: 253003504}
+  - {fileID: 1510583798}
