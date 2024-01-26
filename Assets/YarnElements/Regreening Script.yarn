@@ -85,15 +85,15 @@ Plant the saplings to harvest Gum Arabic yourself #line:0075999
 title: AcaciaSenegalRevisit
 tags:
 ---
-Hello again. Would you like to know more about FMNR? #line:0c8bc50 
--> Tell me more about FMNR #line:0250b7e 
-    Acacia Senegal grows in many parts of Africa, and can endure 11 month droughts #line:04723d4 
-    Its large roots to stop desertification and erosion #line:0cbfb7e 
-    Gum Arabic, also called E414 is a food additive with countless uses #line:05a0864 
-    It is used in fizzy drinks, candies, inks, medicines and beer #line:059624e 
-    Egyptian Pharos used to trade its sap for money #line:0a06a77 
-    Present day farmers also sell it to large companies, finding much economic value #line:09c688a 
-    Acacia Senegal and Gum Arabic benefit the economy, environment and society in countries where it is grown #line:08df0db 
+Hello again. Would you like to know more about Acacia Senegal? #line:0c8bc50 
+-> Tell me more about Acacia Senegal #line:0250b7e 
+    Acacia Senegal grows in many parts of Africa, and can endure 11 month droughts #line:035a309 
+    Its large roots to stop desertification and erosion #line:06d52de 
+    Gum Arabic, also called E414 is a food additive with countless uses #line:04ddcd2 
+    It is used in fizzy drinks, candies, inks, medicines and beer #line:06ace0b 
+    Egyptian Pharos used to trade its sap for money #line:0078a73 
+    Present day farmers also sell it to large companies, finding much economic value #line:09efb68 
+    Acacia Senegal and Gum Arabic benefit the economy, environment and society in countries where it is grown #line:0acdda0 
 -> No Thank you #line:0e2584c 
     No problem, come back when you have any questions #line:0145922 
 ===
@@ -102,9 +102,9 @@ title: Demilunes
 tags:
 ---
 <<if $spokenToDola is false>>
-<<jump AcaciaSenegalFirstTime>>
+<<jump DemilunesFirstTime>>
 <<else>>
-<<jump AcaciaSenegalRevisit>>
+<<jump DemilunesRevisit>>
 <<endif>>>> #line:0c142a6 
 ===
 

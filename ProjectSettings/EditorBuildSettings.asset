@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/FMNR.unity
     guid: 74a5a95f1babae748a7baa515d42355e
   - enabled: 1
-    path: Assets/senigal.unity
+    path: Assets/senegal.unity
     guid: a53a9f51b2497504bb9ec6d566f9522e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
