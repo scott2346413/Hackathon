@@ -32,7 +32,7 @@ Here are some visuals to give you a sneak peek into the VR Regreening Africa Edu
 ![Acacia senegal and Gum Arabic in Senegal](/path/to/acacia_senegal.gif)
 ![Demilunes in Nigeria](/path/to/demilunes.gif)
 
-Watch a brief walkthrough on our [YouTube video](https://www.youtube.com/watch?v=yourvideolink) for a more in-depth preview.
+Watch a brief walkthrough on our [YouTube video](https://youtu.be/0AvpwSAt4Rs) for a more in-depth preview.
 
 ## How to Use
 
@@ -46,7 +46,7 @@ Watch a brief walkthrough on our [YouTube video](https://www.youtube.com/watch?v
 We would like to extend our gratitude to the following individuals and resources for contributing to the development of this application:
 
 - **Asset Credits:**
-  - [List of assets used and their sources]
+[List of Assets](https://docs.google.com/document/d/1ZQmVIgzFXkgucoMSawXLOHfle_ls9p0rlQbmuVHF8xs/edit?usp=sharing)
 
 - **Development Team:**
   - Scott - Project Manager, Level Design, Programmer
